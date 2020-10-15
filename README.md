@@ -31,7 +31,8 @@ Apply Bucket Policy
 2.	Click Bucket Policy.
 3.	In the Bucket policy editor box, enter the following JSON statement (replacing <my-bucket> with your bucket name):
 
-`{
+```
+{
   "Version":"2012-10-17",
   "Statement":[{
      "Sid":"PublicReadGetObject",
@@ -41,7 +42,7 @@ Apply Bucket Policy
      "Resource":["arn:aws:s3:::<my-bucket>/*"]
   }]
 }
-`
+```
 
 Note: Ensure the trailing /* is present so the policy applies to all objects within the bucket.
 4.	Refresh the browser tab with the static website. This time, it should load the site correctly.
