@@ -1,7 +1,5 @@
-# H1 
-Creating a Static Website Using Amazon S3
-## H2 
-Introduction
+# H Creating a Static Website Using Amazon S3
+## H Introduction
 In this live AWS hands-on lab, we will create and configure a simple static website. We will go through configuring that static website with a custom error page. This will demonstrate how to create a very cost-efficient website hosting for sites that consist of files like HTML, CSS, JavaScript, fonts, and images.
 Solution
 Log in to the live AWS environment using the credentials provided. Make sure you're in the N. Virginia (us-east-1) region throughout the lab.
